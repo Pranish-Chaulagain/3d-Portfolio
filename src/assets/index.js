@@ -19,6 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import php from "./tech/php.png";
+import python from "./tech/python.png";
 
 import reactLogo from "./experience/react.png";
 import laravelLogo from "./experience/laravel.png";
@@ -50,6 +51,7 @@ export {
   tailwind,
   typescript,
   php,
+  python,
   laravelLogo,
   reactLogo,
   nodeLogo,

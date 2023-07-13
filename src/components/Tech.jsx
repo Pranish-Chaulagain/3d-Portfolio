@@ -16,10 +16,13 @@ const Tech = () => {
               scale: 1,
               speed: 450,
             }}
-            className="w-28 h-28 rounded-full bg-tertiary flex items-center justify-center p-5 shadow-md "
+            className="w-28 h-28 rounded-2xl bg-tertiary flex items-center justify-center p-5 shadow-md mb-2"
           >
-            <img className="object-cover" src={technology.icon} />
+            <img className="object-cover rounded-md" src={technology.icon} />
           </Tilt>
+          <h3 className="text-center line-clamp-1 text-secondary">
+            {technology.name}
+          </h3>
         </motion.div>
       ))}
     </div>

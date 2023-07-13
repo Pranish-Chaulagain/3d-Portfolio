@@ -22,6 +22,7 @@ import {
   foodi,
   traveldost,
   filmdb,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -72,8 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "React JS",
@@ -84,16 +85,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "git",
-    icon: git,
+    name: "Python",
+    icon: python,
   },
   {
     name: "PHP",
@@ -104,8 +101,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "django",
-    icon: djangoLogo,
+    name: "Figma",
+    icon: figma,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
   {
     name: "MongoDB",
@@ -118,44 +119,44 @@ const experiences = [
     title: "Laravel Developer",
     icon: laravelLogo,
     iconBg: "#050816",
-    date: "March 2020 - April 2021",
+    date: "Mar 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing web applications using Laravel, including implementing features, handling data persistence, and ensuring code quality.",
+      "Designing the overall structure and architecture of the application, ensuring it follows best practices and adheres to Laravel's principles.",
+      "Building server-side logic, database integration, and APIs using Laravel's features such as routing, ORM, caching, and authentication.",
     ],
   },
   {
     title: "React.js Developer",
     icon: reactLogo,
     iconBg: "#050816",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing web applications using ReactJS, including implementing user interfaces, handling state management, and integrating with backend APIs.",
+      "Building reusable and modular components in React, following best practices such as component composition, state management, and handling props and events.",
+      "Implementing state management solutions in React, such as using React's built-in state or utilizing external libraries like Redux for managing application-wide state.",
     ],
   },
   {
     title: "Node.js Developer",
     icon: nodeLogo,
     iconBg: "#050816",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Building server-side logic and APIs using Node.js, including handling data persistence, performing database operations, and implementing business logic.",
+      "Creating RESTful or GraphQL APIs using frameworks like Express.js, Hapi.js, or Nest.js, and integrating them with frontend or mobile applications.",
+      "Working with databases such as MongoDB, MySQL, or PostgreSQL to store and retrieve data efficiently.",
     ],
   },
   {
     title: "Django Developer",
     icon: djangoLogo,
     iconBg: "#050816",
-    date: "Jan 2023 - Present",
+    date: "Mar 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing web applications using Django, including implementing features, handling data persistence, and ensuring code quality.",
+      "Building server-side logic, database integration, and APIs using Django's features such as routing, ORM, and authentication.",
+      "Building RESTful APIs using Django's Rest Framework or GraphQL APIs using libraries like Graphene, enabling seamless data exchange between frontend and backend.",
     ],
   },
 ];
